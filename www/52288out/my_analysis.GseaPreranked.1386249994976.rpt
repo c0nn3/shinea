@@ -1,0 +1,22 @@
+producer_class	xtools.gsea.GseaPreranked
+producer_timestamp	1386249994976
+param	collapse	false
+param	plot_top_x	9999
+param	rnk	/Users/cfischer/Groundwork/PHOSSEA/52288.rnk
+param	norm	meandiv
+param	scoring_scheme	weighted
+param	make_sets	true
+param	mode	Max_probe
+param	gmx	databases/PSP_human_phosphosite_set_edit_NAclean.gmx,databases/SWISS_human_phosphosite_set_edit_NAclean.gmx,databases/HPRD_human_phosphosite_set_clean_edit_NAclean.gmx,databases/Phospho_ELM_human_phosphosite_set_clean_edit_NAclean.gmx
+param	gui	false
+param	rpt_label	my_analysis
+param	help	false
+param	out	/Users/cfischer/Groundwork/PHOSSEA/www/52288out
+param	include_only_symbols	true
+param	set_min	3
+param	nperm	1000
+param	rnd_seed	timestamp
+param	zip_report	false
+param	set_max	500
+
+file	www/52288out/my_analysis.GseaPreranked.1386249994976/index.html
